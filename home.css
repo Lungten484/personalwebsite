@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ccc;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #e0a4f1;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Hero image styling */
+.hero {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+/* Content Section */
+.content {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content h1 {
+    font-size: 24px;
+    color: black;
+    text-transform: lowercase;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    padding: 30px 0;
+    background-color: #a56ee9;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    margin: 0 15px;
+    color: #060505; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0856a0; 
+}
+
+.form-inline {
+    display: flex;
+    justify-content: flex-end;
+}
+/* Home Section */
+.home-section {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(20, 5, 229);
+}
+
+.home-section h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.home-section p {
+    font-size: 1.25rem;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.background-image {
+    background-color: #995beb;
+    background-size: cover; 
+    background-position: center; 
+    height: 50vh; 
+}
+
+.home-section .btn {
+    padding: 10px 25px;
+    font-size: 1.1rem;
+}
+
+/* About Section */
+.about-section {
+    padding: 10px 0;
+    background-color:rgb(195, 126, 251);
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.hobbies-section {
+    padding: 60px 0;
+    background-color: #a56ee9;
+}
+
+.hobby-card {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+.hobby-card:hover {
+    transform: translateY(-10px);
+}
+
+.hobby-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.hobby-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.hobby-card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 30px 0;
+    background-color: #995beb;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #0c0b0b;
+}
+
+.contact-section .form-control {
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+.contact-section .btn {
+    padding: 10px 30px;
+    font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #8f5cee;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1rem;
+}
+
+footer a {
+    color: #ddd;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
